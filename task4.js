@@ -17,10 +17,10 @@ for (let i = 0; i < count; i = i + 1) {
   rows.push(i);
 }
 
-// let result = ""
+let result = ""
 // console.log(result)
 
 for(let row of rows){
-  row = row + " Hello"
-  console.log(row)
+  result = result + row + "\n"
+  console.log(result)
 }
