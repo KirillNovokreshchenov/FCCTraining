@@ -20,6 +20,7 @@ for (let i = 0; i < count; i = i + 1) {
 // let result = ""
 // console.log(result)
 
-for(const i of rows){
-  console.log( typeof i)
+for(let row of rows){
+  row = row + " Hello"
+  console.log(row)
 }
